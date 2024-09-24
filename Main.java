@@ -130,14 +130,14 @@ public class Main {
         
         // data mahasiswa
         List<Mahasiswa> mahasiswas = new ArrayList<>();
+        mahasiswas.add(new Mahasiswa("Agra", "Jl. Sarijadi No. 45, Bandung", "231511067", prodiD3));
         mahasiswas.add(new Mahasiswa("Aulia", "Jl. Ciwaruga No. 19, Garut", "231511070", prodiD3));
-        mahasiswas.add(new Mahasiswa("Agra", "Jl. Sarijadi No. 45, Bandung", "NIM1002", prodiD3));
-        mahasiswas.add(new Mahasiswa("Berliana", "Jl. Kopo No. 67, Bandung", "NIM1003", prodiD3));
-        mahasiswas.add(new Mahasiswa("Elsa", "Jl. Batujajar No. 89, Bandung", "NIM1004", prodiD3));
-        mahasiswas.add(new Mahasiswa("Isyana", "Jl. Gajah Mada No. 12, Cirebon", "NIM1005", prodiD3));
+        mahasiswas.add(new Mahasiswa("Berliana", "Jl. Kopo No. 67, Bandung", "231511072", prodiD3));
+        mahasiswas.add(new Mahasiswa("Elsa", "Jl. Batujajar No. 89, Bandung", "231511074", prodiD3));
+        mahasiswas.add(new Mahasiswa("Isyana", "Jl. Gajah Mada No. 12, Cirebon", "231511078", prodiD3));
         
-        mahasiswas.add(new Mahasiswa("Jihan", "Jl. Merdeka No. 123, Bandung", "NIM1001", prodiD3));
-        mahasiswas.add(new Mahasiswa("Melly", "Jl. Pahlawan No. 45, Cimahi", "NIM1002", prodiD3));
+        mahasiswas.add(new Mahasiswa("Jihan", "Jl. Merdeka No. 123, Bandung", "231511079", prodiD3));
+        mahasiswas.add(new Mahasiswa("Melly", "Jl. Pahlawan No. 45, Cimahi", "231511080", prodiD3));
         mahasiswas.add(new Mahasiswa("Sifa", "Jl. Diponegoro No. 67, Tasik", "231511092", prodiD3));
         mahasiswas.add(new Mahasiswa("Syahla", "Jl. Rancabentang No. 31, Cimahi", "231511095", prodiD3));
         mahasiswas.add(new Mahasiswa("Yulina", "Jl. Sarijadi No. 12, Tegal", "231511096", prodiD3));
