@@ -121,43 +121,43 @@ class Jurusan {
 
 public class Main {
     public static void main(String[] args) {
-        // Membuat data jurusan
+        // data jurusan
         Jurusan jurusanTI = new Jurusan("Teknik Komputer dan Informatika");
         
-        // Membuat data prodi
+        // data prodi
         Prodi prodiD3 = new Prodi("D3 Teknik Informatika", jurusanTI);
         jurusanTI.addProdi(prodiD3);
         
-        // Membuat data mahasiswa
+        // data mahasiswa
         List<Mahasiswa> mahasiswas = new ArrayList<>();
-        mahasiswas.add(new Mahasiswa("Ani", "Jl. Merdeka No. 123, Jakarta", "NIM1001", prodiD3));
-        mahasiswas.add(new Mahasiswa("Budi", "Jl. Pahlawan No. 45, Surabaya", "NIM1002", prodiD3));
-        mahasiswas.add(new Mahasiswa("Cindy Muliawati", "Jl. Diponegoro No. 67, Bandung", "NIM1003", prodiD3));
-        mahasiswas.add(new Mahasiswa("Dodi Pratama", "Jl. Sudirman No. 89, Semarang", "NIM1004", prodiD3));
-        mahasiswas.add(new Mahasiswa("Eka Putri", "Jl. Gajah Mada No. 12, Yogyakarta", "NIM1005", prodiD3));
+        mahasiswas.add(new Mahasiswa("Aulia", "Jl. Ciwaruga No. 19, Garut", "231511070", prodiD3));
+        mahasiswas.add(new Mahasiswa("Agra", "Jl. Sarijadi No. 45, Bandung", "NIM1002", prodiD3));
+        mahasiswas.add(new Mahasiswa("Berliana", "Jl. Kopo No. 67, Bandung", "NIM1003", prodiD3));
+        mahasiswas.add(new Mahasiswa("Elsa", "Jl. Batujajar No. 89, Bandung", "NIM1004", prodiD3));
+        mahasiswas.add(new Mahasiswa("Isyana", "Jl. Gajah Mada No. 12, Cirebon", "NIM1005", prodiD3));
         
-        mahasiswas.add(new Mahasiswa("Fanny", "Jl. Merdeka No. 123, Jakarta", "NIM1001", prodiD3));
-        mahasiswas.add(new Mahasiswa("Gian", "Jl. Pahlawan No. 45, Surabaya", "NIM1002", prodiD3));
-        mahasiswas.add(new Mahasiswa("Hana", "Jl. Diponegoro No. 67, Bandung", "NIM1003", prodiD3));
-        mahasiswas.add(new Mahasiswa("Ino", "Jl. Sudirman No. 89, Semarang", "NIM1004", prodiD3));
-        mahasiswas.add(new Mahasiswa("Jeno", "Jl. Gajah Mada No. 12, Yogyakarta", "NIM1005", prodiD3));
+        mahasiswas.add(new Mahasiswa("Jihan", "Jl. Merdeka No. 123, Bandung", "NIM1001", prodiD3));
+        mahasiswas.add(new Mahasiswa("Melly", "Jl. Pahlawan No. 45, Cimahi", "NIM1002", prodiD3));
+        mahasiswas.add(new Mahasiswa("Sifa", "Jl. Diponegoro No. 67, Tasik", "231511092", prodiD3));
+        mahasiswas.add(new Mahasiswa("Syahla", "Jl. Rancabentang No. 31, Cimahi", "231511095", prodiD3));
+        mahasiswas.add(new Mahasiswa("Yulina", "Jl. Sarijadi No. 12, Tegal", "231511096", prodiD3));
         
-        // Membuat data dosen
+        // data dosen
         List<Dosen> dosens = new ArrayList<>();
-        dosens.add(new Dosen("Pa Yadhi", "Jl. Cendana No. 78, Jakarta", "NIP2001"));
-        dosens.add(new Dosen("Pa Yudhi", "Jl. Melati No. 56, Bandung", "NIP2002"));
-        dosens.add(new Dosen("Pa Suprihanto", "Jl. Anggrek No. 34, Surabaya", "NIP2003"));
-        dosens.add(new Dosen("Pa Trisna", "Jl. Kenanga No. 90, Yogyakarta", "NIP2004"));
-        dosens.add(new Dosen("Pa Ade", "Jl. Flamboyan No. 23, Semarang", "NIP2005"));
+        dosens.add(new Dosen("Yadhi Aditya P.", "Jl. Cendana No. 78, Bandung", "23150001"));
+        dosens.add(new Dosen("Yudi Widhiyasana", "Jl. Melati No. 56, Bandung", "23150002"));
+        dosens.add(new Dosen("Suprihanto", "Jl. Anggrek No. 34, Bandung", "23150003"));
+        dosens.add(new Dosen("Trisna Gelar A", "Jl. Kenanga No. 90, Bandung", "23150004"));
+        dosens.add(new Dosen("Ade Chandra Nugraha", "Jl. Flamboyan No. 23, Bandung", "23150005"));
         
-        dosens.add(new Dosen("Pa Rizky", "Jl. Cendana No. 78, Jakarta", "NIP2001"));
-        dosens.add(new Dosen("Bu Santi", "Jl. Melati No. 56, Bandung", "NIP2002"));
-        dosens.add(new Dosen("Pa Irawan", "Jl. Anggrek No. 34, Surabaya", "NIP2003"));
-        dosens.add(new Dosen("Pa Irwan", "Jl. Kenanga No. 90, Yogyakarta", "NIP2004"));
-        dosens.add(new Dosen("Pa Zul", "Jl. Flamboyan No. 23, Semarang", "NIP2005"));
-        dosens.add(new Dosen("Bu Ade", "Jl. Flamboyan No. 23, Semarang", "NIP2005"));
+        dosens.add(new Dosen("Muhammad Rizky S", "Jl. Cendana No. 78, Bandung", "23150006"));
+        dosens.add(new Dosen("Santi Sundari", "Jl. Melati No. 56, Bandung", "23150007"));
+        dosens.add(new Dosen("Irawan Thamrin", "Jl. Anggrek No. 34, Bandung", "23150008"));
+        dosens.add(new Dosen("Irwan Setiawan", "Jl. Kenanga No. 90, Bandung", "23150009"));
+        dosens.add(new Dosen("Zulkifli Arsyad", "Jl. Flamboyan No. 23, Bandung", "23150010"));
+        dosens.add(new Dosen("Ade Hodijah", "Jl. Flamboyan No. 23, Bandung", "23150011"));
         
-        // Membuat data mata kuliah
+        // data mata kuliah
         List<MataKuliah> mataKuliahs = new ArrayList<>();
         mataKuliahs.add(new MataKuliah("PBO Teori"));
         mataKuliahs.add(new MataKuliah("Komgraf Teori"));
@@ -171,21 +171,14 @@ public class Main {
         mataKuliahs.add(new MataKuliah("PBO Praktek"));
         mataKuliahs.add(new MataKuliah("Basis Data Praktek"));
         
-        // Membuat data ruangan
+        // data ruangan
         List<Ruangan> ruangans = new ArrayList<>();
         ruangans.add(new Ruangan("D217"));
-        ruangans.add(new Ruangan("D217"));
-        ruangans.add(new Ruangan("D217"));
-        ruangans.add(new Ruangan("D111"));
+        ruangans.add(new Ruangan("Lab. MT"));
         ruangans.add(new Ruangan("D101"));
-        ruangans.add(new Ruangan("D101"));
-        ruangans.add(new Ruangan("D101"));
-        ruangans.add(new Ruangan("D111"));
-        ruangans.add(new Ruangan("Lab. Database"));
-        ruangans.add(new Ruangan("Lab. Database"));
         ruangans.add(new Ruangan("Lab. Database"));
         
-        // Membuat jadwal senin 
+        // data jadwal perkuliahan
         List<Jadwal> senins = new ArrayList<>();
         senins.add(new Jadwal("Senin", "08:40-10:40", mataKuliahs.get(0), ruangans.get(0), dosens.get(0)));
         senins.add(new Jadwal("Senin", "10:40-12:20", mataKuliahs.get(1), ruangans.get(0), dosens.get(1)));
@@ -193,30 +186,23 @@ public class Main {
         senins.add(new Jadwal("Senin", "15:40-18:20", mataKuliahs.get(3), ruangans.get(1), dosens.get(3)));
         
         List<Jadwal> selasas = new ArrayList<>();
-        selasas.add(new Jadwal("Selasa", "07:00-12:00", mataKuliahs.get(1), ruangans.get(1), dosens.get(1)));
-        selasas.add(new Jadwal("Selasa", "13:00-15:00", mataKuliahs.get(2), ruangans.get(2), dosens.get(2)));
-        selasas.add(new Jadwal("Selasa", "15:00-17:00", mataKuliahs.get(3), ruangans.get(3), dosens.get(3)));
-        selasas.add(new Jadwal("Selasa", "08:00-10:00", mataKuliahs.get(4), ruangans.get(4), dosens.get(4)));
+        selasas.add(new Jadwal("Selasa", "07:00-08:40", mataKuliahs.get(4), ruangans.get(2), dosens.get(4)));
+        selasas.add(new Jadwal("Selasa", "08:40-10:40", mataKuliahs.get(5), ruangans.get(2), dosens.get(5)));
+        selasas.add(new Jadwal("Selasa", "10:40-12:20", mataKuliahs.get(6), ruangans.get(2), dosens.get(6)));
         
         List<Jadwal> rabus = new ArrayList<>();
-        rabus.add(new Jadwal("Selasa", "10:00-12:00", mataKuliahs.get(1), ruangans.get(1), dosens.get(1)));
-        rabus.add(new Jadwal("Rabu", "13:00-15:00", mataKuliahs.get(2), ruangans.get(2), dosens.get(2)));
-        rabus.add(new Jadwal("Kamis", "15:00-17:00", mataKuliahs.get(3), ruangans.get(3), dosens.get(3)));
-        rabus.add(new Jadwal("Jumat", "08:00-10:00", mataKuliahs.get(4), ruangans.get(4), dosens.get(4)));
+        rabus.add(new Jadwal("Rabu", "07:00-07:50", mataKuliahs.get(7), ruangans.get(1), dosens.get(3)));
+        rabus.add(new Jadwal("Rabu", "07:50-16:40", mataKuliahs.get(7), ruangans.get(1), dosens.get(3)));
+        rabus.add(new Jadwal("Rabu", "07:50-16:40", mataKuliahs.get(7), ruangans.get(1), dosens.get(7)));
+        rabus.add(new Jadwal("Rabu", "07:50-16:40", mataKuliahs.get(7), ruangans.get(1), dosens.get(8)));
         
         List<Jadwal> kamiss = new ArrayList<>();
-        kamiss.add(new Jadwal("Selasa", "10:00-12:00", mataKuliahs.get(1), ruangans.get(1), dosens.get(1)));
-        kamiss.add(new Jadwal("Rabu", "13:00-15:00", mataKuliahs.get(2), ruangans.get(2), dosens.get(2)));
-        kamiss.add(new Jadwal("Kamis", "15:00-17:00", mataKuliahs.get(3), ruangans.get(3), dosens.get(3)));
-        kamiss.add(new Jadwal("Jumat", "08:00-10:00", mataKuliahs.get(4), ruangans.get(4), dosens.get(4)));
+        kamiss.add(new Jadwal("Kamis", "09:50-15:30", mataKuliahs.get(8), ruangans.get(3), dosens.get(0)));
+        kamiss.add(new Jadwal("Kamis", "15:50-18:20", mataKuliahs.get(9), ruangans.get(3), dosens.get(9)));
         
         List<Jadwal> jumats = new ArrayList<>();
-        jumats.add(new Jadwal("Selasa", "10:00-12:00", mataKuliahs.get(1), ruangans.get(1), dosens.get(1)));
-        jumats.add(new Jadwal("Rabu", "13:00-15:00", mataKuliahs.get(2), ruangans.get(2), dosens.get(2)));
-        jumats.add(new Jadwal("Kamis", "15:00-17:00", mataKuliahs.get(3), ruangans.get(3), dosens.get(3)));
-        jumats.add(new Jadwal("Jumat", "08:00-10:00", mataKuliahs.get(4), ruangans.get(4), dosens.get(4)));
+        jumats.add(new Jadwal("Jumat", "07:00-13:50", mataKuliahs.get(10), ruangans.get(3), dosens.get(10)));
         
-        // Menampilkan data mahasiswa
         System.out.println("Data Mahasiswa:");
         for (Mahasiswa mahasiswa : mahasiswas) {
             System.out.println(mahasiswa);
